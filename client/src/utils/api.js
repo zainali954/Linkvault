@@ -2,7 +2,7 @@ import axios from "axios";
 import { toast } from "react-toastify";
 
 // Base API URL
-const API_URL = "http://localhost:3000/api";
+const API_URL = "https://linkvault-srvr.vercel.app/api";
 
 const API = axios.create({
   baseURL: API_URL,
