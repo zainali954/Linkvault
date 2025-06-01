@@ -1,0 +1,39 @@
+# ======================
+# Root-level .gitignore
+# ======================
+
+# Ignore Node modules in both client and server
+client/node_modules/
+server/node_modules/
+
+# Ignore environment files
+client/.env
+server/.env
+.env
+
+# Ignore build outputs
+client/dist/
+server/build/
+build/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS/System files
+.DS_Store
+Thumbs.db
+
+# Editor folders
+.vscode/
+.idea/
+
+# Local development artifacts
+*.local
+*.env.*
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
